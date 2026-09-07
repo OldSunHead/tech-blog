@@ -9,8 +9,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '技术笔记', link: '/notes/' },
+      { text: 'AI & Agent', link: '/ai/' },
+      { text: '项目实践', link: '/projects/' }
     ],
 
     sidebar: [
