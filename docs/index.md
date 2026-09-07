@@ -5,21 +5,18 @@ layout: home
 hero:
   name: "梦杰的技术博客"
   text: "记录技术、项目与成长"
-  tagline: My great project tagline
+  tagline: 持续学习，持续实践，持续沉淀
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 开始阅读
+      link: /hello
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 技术笔记
+    details: 记录 Java、Python、Docker、Git、Linux 等开发实践
+  - title: AI & Agent
+    details: 记录大模型、Agent、MCP、RAG 等技术探索
+  - title: 项目实践
+    details: 记录真实项目中的架构设计、部署、排障与经验总结
 ---
 
