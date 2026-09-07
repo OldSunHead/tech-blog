@@ -15,15 +15,24 @@ export default defineConfig({
       { text: '项目实践', link: '/projects/' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/notes/': [
+        {
+          text: '技术笔记',
+          items: [
+            {
+              text: 'Git',
+              items: [
+                {
+                  text: 'Git Pull 分支分叉问题',
+                  link: '/notes/git/git-pull-divergent-branches'
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
