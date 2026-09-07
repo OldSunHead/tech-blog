@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/tech-blog/',
+  
   title: "梦杰的技术博客",
   description: "记录技术、项目与成长",
   themeConfig: {
