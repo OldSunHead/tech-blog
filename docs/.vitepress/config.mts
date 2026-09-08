@@ -13,13 +13,17 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '技术笔记', link: '/notes/' },
       { text: 'AI & Agent', link: '/ai/' },
-      { text: '项目实践', link: '/projects/' }
+      { text: '项目实践', link: '/projects/' },
+      { text: '关于我', link: '/about' }
     ],
 
     sidebar,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { 
+        icon: 'github', 
+        link: 'https://github.com/OldSunHead' 
+      }
     ]
   }
 })
