@@ -1,3 +1,14 @@
+---
+title: Git Pull 出现 divergent branches 的原因与解决方法
+description: 记录 Git Pull 分支分叉问题的原因，以及 Merge、Rebase、Fast-forward 三种处理方式。
+date: 2026-09-08
+tags:
+  - Git
+  - Git Pull
+  - Rebase
+  - Merge
+---
+
 # Git Pull 出现 divergent branches 的原因与解决方法
 
 在使用 Git 拉取远程代码时，有时执行 `git pull` 会出现 `divergent branches` 相关提示，并最终提示：
