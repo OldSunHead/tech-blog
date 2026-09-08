@@ -11,22 +11,6 @@ export const sidebar = {
               link: '/notes/git/git-pull-divergent-branches'
             }
           ]
-        },
-        {
-          text: 'Docker',
-          items: []
-        },
-        {
-          text: 'Linux',
-          items: []
-        },
-        {
-          text: 'Java',
-          items: []
-        },
-        {
-          text: 'Python',
-          items: []
         }
       ]
     }
@@ -37,20 +21,8 @@ export const sidebar = {
       text: 'AI & Agent',
       items: [
         {
-          text: 'LLM',
-          items: []
-        },
-        {
-          text: 'Agent',
-          items: []
-        },
-        {
-          text: 'MCP',
-          items: []
-        },
-        {
-          text: 'RAG',
-          items: []
+          text: '栏目介绍',
+          link: '/ai/'
         }
       ]
     }
@@ -59,7 +31,12 @@ export const sidebar = {
   '/projects/': [
     {
       text: '项目实践',
-      items: []
+      items: [
+        {
+          text: '栏目介绍',
+          link: '/projects/'
+        }
+      ]
     }
   ]
 }

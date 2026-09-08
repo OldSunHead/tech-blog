@@ -2,6 +2,7 @@
 title: 文章标题
 description: 用一句话说明这篇文章解决什么问题。
 date: 2026-09-08
+category: 分类名称
 tags:
   - 标签1
   - 标签2

@@ -1,17 +1,24 @@
 {
   "name": "tech-blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "个人技术博客，记录开发实践、项目经验与 AI 技术探索。",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run docs:check",
+    "docs:check": "node scripts/check-content.mjs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vitepress",
+    "blog",
+    "tech-blog"
+  ],
   "license": "ISC",
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.20"
   }
