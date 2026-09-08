@@ -1,39 +1,30 @@
 ---
 title: 关于我
-description: 梦杰的技术方向与博客写作范围。
+description: 梦杰，AI 全栈工程师。主要使用 Python，拥有 Java 开发经历，关注 Agent、RAG 与应用工程化。
+aside: false
+lastUpdated: false
 ---
 
 # 关于我
 
-你好，我是一名软件开发工程师。
+你好，我是梦杰，一名 **AI 全栈工程师**。
 
-目前主要关注：
+目前主要使用 Python，从事 Agent、RAG 等大模型应用开发，也有 Java 开发经历。日常工作涉及 Linux、Docker、Git 和 Kubernetes，关注应用从开发到部署的完整过程。
 
-- Java / Python 后端开发
-- Docker / Linux / Git
-- PostgreSQL / Redis
-- AI Agent
-- RAG
-- 大模型应用开发
+## 我在做什么
 
-这个博客主要用于记录实际开发过程中遇到的问题、解决方案、项目实践以及技术学习总结。
+- **AI 应用**：Agent、工具调用、RAG 与大模型应用开发。
+- **软件开发**：使用 Python 解决实际问题，延续 Java 开发中积累的工程经验。
+- **部署与运维**：Linux、容器、版本管理和 Kubernetes 相关实践。
 
-## 技术方向
+## 为什么写这个博客
 
-### 后端开发
+工作中解决过的问题，如果只停留在记忆里，很容易只剩下一个模糊的结论。我希望把当时的背景、排查证据和技术取舍一起留下来，让经验能够被回顾和复用。
 
-主要使用 Java、Python 进行后端开发，并关注工程化、接口设计、数据库以及项目部署。
+这里会记录问题复盘、技术理解与项目实践。文章尽量讲清楚：遇到了什么，为什么这样判断，做了哪些尝试，以及如何验证结果。
 
-### DevOps
+博客也是一个持续整理自己技术经历的地方。如果你希望了解我的实践，可以从[文章列表](/posts/)开始，也可以查看[项目实践](/projects/)。
 
-记录 Docker、Linux、Git、CI/CD、服务器部署等相关实践。
+## 找到我
 
-### AI & Agent
-
-关注大模型应用、Agent、MCP、RAG 等技术方向，并持续进行实际项目实践。
-
-## GitHub
-
-GitHub：
-
-https://github.com/OldSunHead
+[GitHub · OldSunHead](https://github.com/OldSunHead)

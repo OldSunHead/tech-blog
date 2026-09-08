@@ -1,33 +1,20 @@
-import { createContentLoader } from 'vitepress'
+import { readArticles } from '../../../scripts/content.mjs'
 
-function formatDate(date: Date | string) {
-  return new Date(date).toISOString().slice(0, 10)
+export interface Post {
+  title: string
+  description: string
+  date: string
+  updated: string | null
+  category: string
+  tags: string[]
+  featured: boolean
+  url: string
 }
 
-export default createContentLoader(
-  [
-    'notes/**/*.md',
-    'ai/**/*.md',
-    'projects/**/*.md'
-  ],
-  {
-    excerpt: true,
-    transform(raw) {
-      return raw
-        .filter((page) => page.frontmatter?.date)
-        .map((page) => ({
-          title: page.frontmatter.title,
-          description: page.frontmatter.description,
-          date: formatDate(page.frontmatter.date),
-          category: page.frontmatter.category,
-          tags: page.frontmatter.tags ?? [],
-          url: page.url
-        }))
-        .sort(
-          (a, b) =>
-            new Date(b.date).getTime() -
-            new Date(a.date).getTime()
-        )
-    }
-  }
-)
+declare const data: Post[]
+export { data }
+
+export default {
+  watch: ['../../**/*.md'],
+  load: () => readArticles()
+}

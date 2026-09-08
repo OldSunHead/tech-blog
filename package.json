@@ -4,10 +4,13 @@
   "description": "个人技术博客，记录开发实践、项目经验与 AI 技术探索。",
   "type": "module",
   "scripts": {
-    "test": "npm run docs:check",
+    "test": "node scripts/content.test.mjs",
     "docs:check": "node scripts/check-content.mjs",
+    "predocs:dev": "npm run docs:check",
     "docs:dev": "vitepress dev docs",
+    "predocs:build": "npm run docs:check",
     "docs:build": "vitepress build docs",
+    "postdocs:build": "node scripts/check-build.mjs",
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [
@@ -20,6 +23,9 @@
     "node": ">=22"
   },
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.20"
+    "@css-render/vue3-ssr": "0.15.14",
+    "naive-ui": "2.45.3",
+    "vitepress": "^2.0.0-alpha.20",
+    "yaml": "2.8.1"
   }
 }

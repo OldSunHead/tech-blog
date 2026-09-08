@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://oldsunhead.github.io/tech-blog/sitemap.xml

@@ -2,7 +2,7 @@
 title: Git Pull 出现 divergent branches 的原因与解决方法
 description: 记录 Git Pull 分支分叉问题的原因，以及 Merge、Rebase、Fast-forward 三种处理方式。
 date: 2026-09-08
-category: Git
+category: 技术笔记
 tags:
   - Git
   - Git Pull
