@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { sidebar } from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,24 +16,7 @@ export default defineConfig({
       { text: '项目实践', link: '/projects/' }
     ],
 
-    sidebar: {
-      '/notes/': [
-        {
-          text: '技术笔记',
-          items: [
-            {
-              text: 'Git',
-              items: [
-                {
-                  text: 'Git Pull 分支分叉问题',
-                  link: '/notes/git/git-pull-divergent-branches'
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
+    sidebar,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
